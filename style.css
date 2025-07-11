@@ -12,8 +12,145 @@
     
     body{
         background-color: #eee;
+        margin:0;
+        box-sizing:content-box;
+        
     }
 
+    
 
 
+
+}
+
+.shop-cart-icon{
+    height: 1rem;
+    
+}
+
+.top-container{
+    border: solid black 2px;
+    display:flex;
+    flex-direction: row;
+    margin-left:0;
+    gap:2ch;
+    justify-content: space-between;
+    
+    
+    padding: 2px;
+    background-color: #44b;
+    
+}
+
+section{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.leftnav{
+    display:flex;
+    margin-left: 10vw;
+    
+
+}
+
+.rightnav{
+margin-right: 10vw;
+
+}
+
+ul{
+    padding:0;
+}
+
+.bottom-container{
+
+    /*border: solid black 2px;*/
+    margin-top:15px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding-left:2px;
+}
+
+h1{
+    font-weight:light;
+    color:#44b;
+    width: 5vw;
+    margin-left: 10vw;
+    font-size:2rem;
+    font-family: sans-serif;
+    
+}
+
+.searchbar{
+    border: solid black 2px;
+    width: 55vw;
+    height: 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    margin-left: 25px;
+    margin-right: 15px;
+
+
+}
+
+
+.mag-icon{
+    background-color:#44b;
+    height: 2.5rem;
+    width: 2.5rem;
+    display:grid;
+    place-items:center;
+}
+
+.glass{
+position:relative;
+border: 2px solid white;
+width:.8rem;
+height: .8rem;
+border-radius: 50%;
+right: 8%;
+
+
+}
+
+.glass::before{
+    content: "";
+    
+    position:absolute;
+    background-color: white;
+    width:.7rem;
+    height: 0.1rem;
+    top: 105%;
+    left: 82%;
+    transform:rotate(45deg);
+
+}
+
+.loan-button{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 13vw;
+    margin-left: 5px;
+}
+
+
+
+sidebar{
+    border: solid black 2px;
+}
+
+footer{
+    border: solid black 2px;
+    display:flex;
+    flex-direction: column;
+    
+    
 }
