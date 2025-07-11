@@ -98,12 +98,17 @@ h1{
 }
 
 
+
 .mag-icon{
     background-color:#44b;
     height: 2.5rem;
     width: 2.5rem;
     display:grid;
     place-items:center;
+}
+
+.mag-icon:hover{
+    cursor: pointer;
 }
 
 .glass{
@@ -141,16 +146,31 @@ right: 8%;
     margin-left: 5px;
 }
 
+.loan-button:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
 
 
 sidebar{
     border: solid black 2px;
+    display:grid;
+    height: 30rem;
+    width:15rem;
+    margin-left: 10vw;
 }
 
 footer{
     border: solid black 2px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color:#44b;
+    height: 200px;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    width: 100vw;
     
     
 }
