@@ -1,0 +1,19 @@
+@media (width <= 576px){
+
+    body{
+        background-color: bisque;
+    }
+
+
+}
+
+
+@media (width >= 577px){
+    
+    body{
+        background-color: #eee;
+    }
+
+
+
+}
